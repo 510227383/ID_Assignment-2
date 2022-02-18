@@ -1,0 +1,54 @@
+.section-classes {
+  width: 100%;
+  height: auto;
+}
+
+.container-header {
+  background-color: #ffd1d1;
+}
+
+.container-description {
+  font-size: 10pt;
+  color: #4c4646
+}
+
+.card {
+  height: 40vh;
+  border: 3px solid white;
+}
+
+.classes-card {
+  transition: 0.4s ease;
+}
+
+.classes-card:hover {
+  transform: scale(1.04);
+}
+
+.card-header {
+  background-color: #FFA2A2;
+}
+
+.card-body {
+  background-color: #FFEBEB;
+}
+
+.card-text {
+  font-family: Verdana, sans-serif;
+  color: #4C4646;
+  line-height: 1.5em;
+}
+
+.learn-class {
+  color: white;
+  border: 2px white solid;
+  background: linear-gradient(to left, #ffd1d1 50%, #ff6075 50%);
+  background-size: 200% 100%;
+  background-position: bottom right;
+  transition: all 0.7s ease-out;
+}
+
+.learn-class:hover {
+  color: black;
+  background-position: bottom left;
+}

@@ -1,0 +1,54 @@
+section {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #F5D6E7;
+}
+#organPic {
+  max-width: 30%;
+  max-height: 30%;
+}
+.science-button button {
+  background-color: #C468C4;
+  border: none;
+}
+.science-button button:hover {
+  background-color: #C41876;
+}
+.science-button button:active {
+  background-color: #801346;
+}
+.keyboard-row {
+  max-width: 700px;
+  touch-action: manipulation;
+}
+
+.keyboard-row button {
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  margin-right: 6px;
+  height: 50px;
+  border-radius: 10%;
+  cursor: pointer;
+  user-select: none;
+  background-color: #c468c4;
+  color: rgb(255, 255, 255);
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.keyboard-row button:hover {
+  background-color: #C41876;
+}
+.keyboard-row button:active {
+  background-color: #801346;
+}
+.keyboard-row .disable {
+  background-color: #666;
+}
+.keyboard-row .disable:hover {
+  background-color: #666;
+}

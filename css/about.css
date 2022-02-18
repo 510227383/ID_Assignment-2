@@ -1,0 +1,12 @@
+.section-about {
+    width: 100%;
+    height: auto;
+}
+
+.container-header {
+    background-color: #FFD1D1;
+}
+
+.about-border {
+    border: 5px solid #4C4646;
+}
